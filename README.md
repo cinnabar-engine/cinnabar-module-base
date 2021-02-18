@@ -1,5 +1,5 @@
 # Cinnabar Engine Module Template
-Build envireemoent for creating modules for Cinnabar Engine.
+Build enviroment for creating modules for Cinnabar Engine.
 
 ## Prerequisites
 
