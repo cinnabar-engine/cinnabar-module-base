@@ -1,8 +1,7 @@
 #include "sample_module.h"
 #include <iostream>
 
-SampleModule::SampleModule(void* lib)
-:ce::Module(lib)
+SampleModule::SampleModule()
 {
 	std::cout << "Hello From Sample Module!\n";
 }

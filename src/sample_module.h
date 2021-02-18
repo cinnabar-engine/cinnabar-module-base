@@ -6,7 +6,7 @@
 class SampleModule:public ce::Module {
 private:
 public:
-	SampleModule(void* lib);
+	SampleModule();
 	~SampleModule();
 	
 	void tick(float deltaTime);
