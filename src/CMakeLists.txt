@@ -13,10 +13,18 @@ ${SRC}
 
 
 
+# target_link_libraries(${NAME}
+# "${CMAKE_SOURCE_DIR}/module_api/libce_module.so"
+# )
+
+
+
 target_link_libraries(${NAME}
-"${CMAKE_SOURCE_DIR}/module_api/libce_module.so"
+	${CE_LIBS}
 )
- 
+
 include_directories(${NAME}
-"${CMAKE_SOURCE_DIR}/module_api/"
+	${CMAKE_CURRENT_SOURCE_DIR} 
+	${CE_INCLUDES}
+	"${CMAKE_SOURCE_DIR}/module_api/"
 )
